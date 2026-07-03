@@ -7,10 +7,10 @@ function main(){
                 <div className="parse">
 
                     <div className="text-parse">
-                        <h6>Profesyonel</h6>
-                        <h1>PürTemizlik</h1>
-                        <p>Siz günün yorgunluğunu atarken, biz evinizi hijyenle buluşturalım. Profesyonel temizlikte kalite ve güven.</p>
-                        <button>Bize Ulaşın...</button>
+                        <h6>Professional</h6>
+                        <h1>PureCleaning</h1>
+                        <p>Relax after a long day while we bring exceptional cleanliness and hygiene to your home. Professional cleaning with quality you can trust.</p>
+                        <button>Contact Us...</button>
                     </div>
 
                 </div>

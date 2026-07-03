@@ -128,26 +128,26 @@ function Header(){
 
                         <a href="/" className="logo d-flex align-items-center text-decoration-none">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="currentColor" className="icon icon-tabler icons-tabler-filled icon-tabler-sparkles"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M16 19a1 1 0 0 1 0 -2a1 1 0 0 0 1 -1c0 -1.333 2 -1.333 2 0a1 1 0 0 0 1 1c1.333 0 1.333 2 0 2a1 1 0 0 0 -1 1c0 1.333 -2 1.333 -2 0a1 1 0 0 0 -1 -1" /><path d="M3 11a5 5 0 0 0 5 -5c0 -1.333 2 -1.333 2 0a5 5 0 0 0 5 5c1.333 0 1.333 2 0 2a5 5 0 0 0 -5 5a1 1 0 0 1 -2 0a5 5 0 0 0 -5 -5c-1.333 0 -1.333 -2 0 -2" /><path d="M16 7a1 1 0 0 1 0 -2a1 1 0 0 0 1 -1c0 -1.333 2 -1.333 2 0a1 1 0 0 0 1 1c1.333 0 1.333 2 0 2a1 1 0 0 0 -1 1c0 1.333 -2 1.333 -2 0a1 1 0 0 0 -1 -1" /></svg>
-                            <h1 className="m-0">PürTemizlik</h1>
+                            <h1 className="m-0">PrimeClean</h1>
                         </a>
 
                         <nav ref={navMobileMenu} className='nav-mobil'>
                             <ul className="navLi">
-                                <li><a href="#home-p">Anasayfa</a></li>
-                                <li><a href="#about-p">Hakkımızda</a></li>
+                                <li><a href="#home-p">Home</a></li>
+                                <li><a href="#about-p">About</a></li>
                                 <li><a href="#blog-p">Blog</a></li>
-                                <li><a href="#services-p">Hizmetler</a></li>
-                                <li><a href="#contact-p">İletişim</a></li>
+                                <li><a href="#services-p">Services</a></li>
+                                <li><a href="#contact-p">Contact</a></li>
                             </ul>
                         </nav>
 
                         <nav className="navbar">
                             <ul className="d-flex list-unstyled gap-5 m-0">
-                                <li><a href="#home-p">Anasayfa</a></li>
-                                <li><a href="#about-p">Hakkımızda</a></li>
+                                <li><a href="#home-p">Home</a></li>
+                                <li><a href="#about-p">About</a></li>
                                 <li><a href="#blog-p">Blog</a></li>
-                                <li><a href="#services-p">Hizmetler</a></li>
-                                <li><a href="#contact-p">İletişim</a></li>
+                                <li><a href="#services-p">Services</a></li>
+                                <li><a href="#contact-p">Contact</a></li>
                             </ul>
                         </nav>
 

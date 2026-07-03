@@ -5,7 +5,7 @@ function contact(){
         <>
             <section className="section-content" id="contact-p">
                 <div className="banner-2">
-                    <h2>İletişim</h2>
+                    <h2>Contact</h2>
                 </div>
 
                 <div className="area">
@@ -14,7 +14,7 @@ function contact(){
 
                             <div className="text-1">
                                 <div className="head-t">
-                                    <h3>Bize Nasıl Ulaşabilirsiniz?</h3>
+                                    <h3>How Can You Reach Us?</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officiis sequi iusto quasi tenetur nisi quae blanditiis optio error architecto.</p>
                                 </div>
                                 <address className="content-info">
@@ -25,10 +25,10 @@ function contact(){
 
                             <div className="text-1">
                                 <div className="head-t">
-                                    <h3>Adres</h3>
+                                    <h3>Address</h3>
                                 </div>
                                 <address className="content-info">
-                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-clock-hour-8"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 12l-3 2" /><path d="M12 7v5" /></svg> Pazartesi - Cuma: 08:00 - 17:00</a>
+                                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-clock-hour-8"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 12l-3 2" /><path d="M12 7v5" /></svg> Monday - Friday: 08:00 - 17:00</a>
                                     <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" /></svg> Türkiye/Mersin</a>
                                 </address>
                             </div>
