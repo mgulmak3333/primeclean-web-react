@@ -29,45 +29,46 @@ To run this project locally and explore the source code, follow these steps:
    ```bash
    npm install
 
-    Run the Project in Development Mode:
-    Bash
+```
 
-    npm run dev
+2. **Run the Project in Development Mode:**
+```bash
+npm run dev
 
-🚀 Projenin Hikayesi & Benim Hakkımda (Türkçe)
+```
 
-Bu proje, benim GitHub üzerinde paylaştığım ilk web sitemdir. Projeyi 16 yaşımda, günümüzde popüler olan "vibecoderlık" (kodun mantığını anlamadan yapay zekaya kod yazdırma) akımına kapılmadan, tamamen kendi başıma, araştırarak ve her bir satırını öğrenerek yazdım. Amacım sadece çalışan bir site yapmak değil; arkasındaki mantığı, bileşen (component) yapısını ve modern web standartlarını tam anlamıyla kavramaktı.
 
-🔗 Web Sitesini Canlı Görmek İçin Tıklayın
-🛠️ Kullanılan Teknolojiler
+
+---
+
+## 🚀 Projenin Hikayesi & Benim Hakkımda (Türkçe)
+
+Bu proje, benim **GitHub üzerinde paylaştığım ilk web sitemdir**. Projeyi **16 yaşımda**, günümüzde popüler olan "vibecoderlık" (kodun mantığını anlamadan yapay zekaya kod yazdırma) akımına kapılmadan, tamamen **kendi başıma, araştırarak ve her bir satırını öğrenerek** yazdım. Amacım sadece çalışan bir site yapmak değil; arkasındaki mantığı, bileşen (component) yapısını ve modern web standartlarını tam anlamıyla kavramaktı.
+
+🔗 **[Web Sitesini Canlı Görmek İçin Tıklayın](https://delicate-heliotrope-eb7f40.netlify.app/)**
+
+### 🛠️ Kullanılan Teknolojiler
 
 Projenin teknik kemiğini oluştururken performansı ve güvenliği ön planda tuttum:
 
-    React.js (Modern bileşen mimarisi)
+* **React.js** (Modern bileşen mimarisi)
+* **TypeScript** (`.tsx` yapısı ile tip güvenliği ve hatasız kodlama)
+* **Vite** (Hızlı ve optimize geliştirme ortamı)
 
-    TypeScript (.tsx yapısı ile tip güvenliği ve hatasız kodlama)
+### 📐 Kod Kalitesi & Tasarım
 
-    Vite (Hızlı ve optimize geliştirme ortamı)
+* **Semantik Kodlama:** HTML yapılarını oluştururken arama motorlarının (SEO) ve tarayıcıların siteyi en iyi şekilde anlamlandırması için kodları elimden geldiğince semantik (`<header>`, `<section>`, `<main>`, `<footer_>`) bir biçimde yazmaya özen gösterdim.
+* **%100 Responsive (Mobil Uyumlu):** Şu ana kadar farklı ekran boyutlarında ve cihazlarda yaptığım testlerde tasarımda hiçbir kırılma veya sorun yaşanmamıştır. Ayrıca yapılan Google PageSpeed Insights optimizasyonları ile **90+ performans puanına** ulaşılmıştır.
 
-📐 Kod Kalitesi & Tasarım
-
-    Semantik Kodlama: HTML yapılarını oluştururken arama motorlarının (SEO) ve tarayıcıların siteyi en iyi şekilde anlamlandırması için kodları elimden geçerince semantik (<header>, <section>, <main>, <footer_>) bir biçimde yazmaya özen gösterdim.
-
-    %100 Responsive (Mobil Uyumlu): Şu ana kadar farklı ekran boyutlarında ve cihazlarda yaptığım testlerde tasarımda hiçbir kırılma veya sorun yaşanmamıştır. Ayrıca yapılan Google PageSpeed Insights optimizasyonları ile 90+ performans puanına ulaşılmıştır.
-
-💻 Kurulum ve Çalıştırma
+### 💻 Kurulum ve Çalıştırma
 
 Projeyi yerel bilgisayarınızda çalıştırmak ve kodları incelemek için aşağıdaki adımları takip edebilirsiniz:
 
-    Bağımlılıkları Yükleyin:
-    Bash
+1. **Bağımlılıkları Yükleyin:**
+```bash
+npm install
 
-    npm install
-
-    Projeyi Canlı Modda Başlatın:
-    Bash
-
-    npm run dev
+```
 
 
 2. **Projeyi Canlı Modda Başlatın:**
@@ -75,4 +76,3 @@ Projeyi yerel bilgisayarınızda çalıştırmak ve kodları incelemek için aş
 npm run dev
 
 ```
-
