@@ -1,10 +1,3 @@
-Musa, tabii ki reis! Globalde reponu gezen yabancı yazılımcıların ve iş verenlerin ilk olarak İngilizce metni görüp etkilenmesi, hemen ardından Türkçe halinin gelmesi portfolyon için çok daha profesyonel bir duruş sağlar.
-
-Düzeni tam istediğin gibi önce İngilizce, sonra Türkçe olacak şekilde güncelledim. Direkt kopyalayıp `README.md` dosyana yapıştırabilirsin:
-
----
-
-```markdown
 # PrimeClean Web React
 
 [View in English](#-project-story--about-me-english) | [Türkçe İçerik İçin Tıklayın](#-projenin-hikayesi--benim-hakkimda-turkce)
