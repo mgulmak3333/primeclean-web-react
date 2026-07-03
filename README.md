@@ -10,7 +10,7 @@ A modern, responsive, and user-friendly landing page for a professional cleaning
 
 Rather than simply generating code with AI tools, I focused on understanding how every part of the project works. My goal was to learn the fundamentals of modern web development, including component-based architecture, responsive design, semantic HTML, and clean project organization.
 
-🔗 **Live Demo:** https://delicate-heliotrope-eb7f40.netlify.app/
+🔗 **Live Demo:** https://chipper-taiyaki-5707da.netlify.app/
 
 ---
 
