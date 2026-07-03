@@ -1,31 +1,82 @@
+Musa, tabii ki reis! Globalde reponu gezen yabancı yazılımcıların ve iş verenlerin ilk olarak İngilizce metni görüp etkilenmesi, hemen ardından Türkçe halinin gelmesi portfolyon için çok daha profesyonel bir duruş sağlar.
+
+Düzeni tam istediğin gibi önce İngilizce, sonra Türkçe olacak şekilde güncelledim. Direkt kopyalayıp `README.md` dosyana yapıştırabilirsin:
+
+---
+
+```markdown
 # PrimeClean Web React
 
-Bu proje, modern ve kurumsal bir temizlik platformu için tasarlanmış tek sayfalık (landing page) bir web sitesidir. Abartıdan uzak, sade, şık ve son derece anlaşılır bir arayüz yapısına sahiptir.
+[View in English](#-project-story--about-me-english) | [Türkçe İçerik İçin Tıklayın](#-projenin-hikayesi--benim-hakkimda-turkce)
 
-## 🚀 Projenin Hikayesi & Benim Hakkımda
+This project is a clean, sleek, and highly intuitive single-page (landing page) website designed for a modern and corporate cleaning platform.
 
-Bu projeyi **16 yaşımda**, günümüzde popüler olan "vibecoderlık" (kodun mantığını anlamadan yapay zekaya kod yazdırma) akımına kapılmadan, tamamen **kendi başıma, araştırarak ve her bir satırını öğrenerek** yazdım. Amacım sadece çalışan bir site yapmak değil; arkasındaki mantığı, bileşen (component) yapısını ve modern web standartlarını tam anlamıyla kavramaktı.
+---
 
-## 🛠️ Kullanılan Teknolojiler
+## 🚀 Project Story & About Me (English)
+
+This project holds a very special place for me as it is the **first website I have ever published on GitHub**. I built this project at the **age of 16**, entirely **on my own, through deep research and learning every single line of code by heart**—without falling into the trendy "vibecoder" wave (blindly letting AI write code without understanding its logic). My goal was not just to spin up a working website, but to fully grasp the underlying logic, component architecture, and modern web standards.
+
+### 🛠️ Technologies Used
+I prioritized performance, type safety, and clean bundling for the codebase:
+- **React.js** (Modern component architecture)
+- **TypeScript** (`.tsx` structure for static typing and error-free coding)
+- **Vite** (Fast and optimized development environment)
+
+### 📐 Code Quality & Design
+- **Semantic Coding:** To ensure search engines (SEO) and modern browsers interpret the layout correctly, I paid maximum attention to writing clean, semantic HTML (`<header>`, `<section>`, `<main>`, `<footer_>`).
+- **100% Responsive:** In all device tests and screen sizes conducted so far, the layout scales perfectly with zero breakages. Furthermore, thanks to Google PageSpeed Insights optimization, the site achieves a **90+ performance score**.
+
+### 💻 Installation and Setup
+To run this project locally and explore the source code, follow these steps:
+
+1. **Install Dependencies:**
+   ```bash
+   npm install
+
+```
+
+2. **Run the Project in Development Mode:**
+```bash
+npm run dev
+
+```
+
+
+
+---
+
+## 🚀 Projenin Hikayesi & Benim Hakkımda (Türkçe)
+
+Bu proje, benim **GitHub üzerinde paylaştığım ilk web sitemdir**. Projeyi **16 yaşımda**, günümüzde popüler olan "vibecoderlık" (kodun mantığını anlamadan yapay zekaya kod yazdırma) akımına kapılmadan, tamamen **kendi başıma, araştırarak ve her bir satırını öğrenerek** yazdım. Amacım sadece çalışan bir site yapmak değil; arkasındaki mantığı, bileşen (component) yapısını ve modern web standartlarını tam anlamıyla kavramaktı.
+
+### 🛠️ Kullanılan Teknolojiler
 
 Projenin teknik kemiğini oluştururken performansı ve güvenliği ön planda tuttum:
-- **React.js** (Modern bileşen mimarisi)
-- **TypeScript** (`.tsx` yapısı ile tip güvenliği ve hatasız kodlama)
-- **Vite** (Hızlı ve optimize geliştirme ortamı)
 
-## 📐 Kod Kalitesi & Tasarım
+* **React.js** (Modern bileşen mimarisi)
+* **TypeScript** (`.tsx` yapısı ile tip güvenliği ve hatasız kodlama)
+* **Vite** (Hızlı ve optimize geliştirme ortamı)
 
-- **Semantik Kodlama:** HTML yapılarını oluştururken arama motorlarının (SEO) ve tarayıcıların siteyi en iyi şekilde anlamlandırması için kodları elimden geldiğince semantik (`<header>`, `<section>`, `<main>`, `<footer_>`) bir biçimde yazmaya özen gösterdim.
-- **%100 Responsive (Mobil Uyumlu):** Şu ana kadar farklı ekran boyutlarında ve cihazlarda yaptığım testlerde tasarımda hiçbir kırılma veya sorun yaşanmamıştır. Her ekranda premium hissi verir.
+### 📐 Kod Kalitesi & Tasarım
 
-## 💻 Kurulum ve Çalıştırma
+* **Semantik Kodlama:** HTML yapılarını oluştururken arama motorlarının (SEO) ve tarayıcıların siteyi en iyi şekilde anlamlandırması için kodları elimden geldiğince semantik (`<header>`, `<section>`, `<main>`, `<footer_>`) bir biçimde yazmaya özen gösterdim.
+* **%100 Responsive (Mobil Uyumlu):** Şu ana kadar farklı ekran boyutlarında ve cihazlarda yaptığım testlerde tasarımda hiçbir kırılma veya sorun yaşanmamıştır. Ayrıca yapılan Google PageSpeed Insights optimizasyonları ile **90+ performans puanına** ulaşılmıştır.
+
+### 💻 Kurulum ve Çalıştırma
 
 Projeyi yerel bilgisayarınızda çalıştırmak ve kodları incelemek için aşağıdaki adımları takip edebilirsiniz:
 
 1. **Bağımlılıkları Yükleyin:**
-   ```bash
-   npm install
-   
-1. **Projeyi Canlı Modda Başlatın:**
-   ```bash
-   npm run dev
+```bash
+npm install
+
+```
+
+
+2. **Projeyi Canlı Modda Başlatın:**
+```bash
+npm run dev
+
+```
+
