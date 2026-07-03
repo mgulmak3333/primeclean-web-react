@@ -62,7 +62,7 @@ function footer(){
 
 
                 <div className="copyright">
-                    <p>©2026 PrimeClean All Rights Reserved. (Gülmak Software Dev.)</p>
+                    <p>©2026 PrimeClean All Rights Reserved.</p>
                 </div>
 
             </footer>
