@@ -40,9 +40,9 @@ npm run dev
 
 
 ---
-(./photo1.png)
+!(./photo1.png)
 
-(./photo2.png)
+!(./photo2.png)
 ---
 
 ## 🚀 Projenin Hikayesi & Benim Hakkımda (Türkçe)
