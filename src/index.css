@@ -1,0 +1,23 @@
+:root{
+    /* FONTS */
+    --montserrat: "Montserrat", sans-serif;
+    --nunito: "Nunito", sans-serif;
+   
+
+    /* IMAGES */
+    --main-background: url(./assets/img/bg.webp);
+    --about-image: url(./assets/img/ct.png);
+    --blog-background: url(./assets/img/banner-1.jpg);
+    --blog-card-1: url(./assets/img/blog-1.jpg);
+    --blog-card-2: url(./assets/img/blog-2.jpg);
+    --services-background: url(./assets/img/c2.jpg);
+    --contact-background: url(./assets/img/banner-2.jpg);
+
+
+    /* COLOR */
+    --footer-bg: #1a1a1d;
+    --white: rgb(245, 252, 255);
+    --blue: rgb(0, 68, 255);
+    --button-blue: rgb(54, 84, 255);
+    --button-blue-hover: rgb(38, 54, 146);
+}
