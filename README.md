@@ -27,3 +27,5 @@ Projeyi yerel bilgisayarınızda çalıştırmak ve kodları incelemek için aş
    npm install
    
 1. **Projeyi Canlı Modda Başlatın:**
+   ```bash
+   npm run dev
