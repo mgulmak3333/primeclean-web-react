@@ -1,0 +1,45 @@
+.section-blog{
+    width: 100%;
+    min-height: auto;
+    display:block;
+    padding-bottom: 163.92px;
+    background: var(--white);
+}
+
+.banner-1{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), var(--blog-background);
+    backdrop-filter: shadow(100px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    
+}
+
+.banner-1 h2{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    font-family: var(--montserrat);
+    position: relative;
+}
+
+.banner-1 h2::after{
+    content: '';
+    bottom: -8px;
+    transform: translateX(-50%);
+    left: 50%;
+    border-radius: 10px;
+    width: 70%;
+    height: 4px;
+    background: var(--blue);
+    position: absolute;
+}
+
+@media (max-width: 991px) {
+    .section-blog{
+        padding-bottom: 25%;
+    }
+}

@@ -1,0 +1,102 @@
+.main-m{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    background: var(--main-background);
+    padding-bottom: 10px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.parse {
+    display: flex;
+    min-width: 50%;
+    min-height:45vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 10px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.3) 40%, transparent 100%);
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--montserrat);
+    animation: slideLeft 1s ease forwards;
+}
+
+
+
+
+
+@keyframes slideLeft {
+    from{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.parse p{
+    max-width:500px;
+    display: flex;
+    padding-top: 3%;
+    line-height: 25px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+.parse h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    width: fit-content;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    font-weight: 600;
+    position: relative;
+}
+
+.parse h1::before{
+    width: 40%;
+    height: 4px;
+    position: absolute;
+    border-radius: 10px;
+    background: white;
+    left: 0;
+    bottom: -5px;
+    bottom: 0;
+    content: '';
+}
+
+.parse h6{
+    color: rgb(0, 21, 49);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.parse p, .parse h1 {
+    margin: 0;
+}
+
+
+.parse button {
+    margin-top: 30px;
+    width: fit-content;
+    color: white;
+    border-radius: 30px;
+    background: var(--button-blue);
+    padding: 18px 20px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.parse button:hover{
+    background: var(--button-blue-hover);
+}
