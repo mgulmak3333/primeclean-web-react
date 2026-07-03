@@ -44,8 +44,6 @@ During development, I focused on writing clean, readable, and maintainable code.
 - Optimized assets and performance
 - Well-structured project organization
 
-The project achieves a **90+ Google PageSpeed Insights Performance Score** after optimization.
-
 ---
 
 ## 📸 Screenshots
