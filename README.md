@@ -54,9 +54,9 @@ The project achieves a **90+ Google PageSpeed Insights Performance Score** after
 
 ![PrimeClean Screenshot](./photo1.png)
 
-### Google PageSpeed Insights
+### Phone - HomePage
 
-![PageSpeed Score](./photo2.png)
+![PrimeClean Screenshot](./photo2.png)
 
 ---
 
@@ -93,9 +93,8 @@ npm run dev
 ```
 src/
 ├── assets/
+    ├── styles/
 ├── components/
-├── pages/
-├── styles/
 ├── App.tsx
 └── main.tsx
 ```
