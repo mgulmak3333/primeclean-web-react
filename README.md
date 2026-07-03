@@ -1,81 +1,120 @@
 # PrimeClean Web React
 
-[View in English](#-project-story--about-me-english) | [Türkçe İçerik İçin Tıklayın](#-projenin-hikayesi--benim-hakkimda-turkce)
-
-This project is a clean, sleek, and highly intuitive single-page (landing page) website designed for a modern and corporate cleaning platform.
+A modern, responsive, and user-friendly landing page for a professional cleaning service platform, built with React, TypeScript, and Vite.
 
 ---
 
-## 🚀 Project Story & About Me (English)
+## 🚀 About This Project
 
-This project holds a very special place for me as it is the **first website I have ever published on GitHub**. I built this project at the **age of 16**, entirely **on my own, through deep research and learning every single line of code by heart**—without falling into the trendy "vibecoder" wave (blindly letting AI write code without understanding its logic). My goal was not just to spin up a working website, but to fully grasp the underlying logic, component architecture, and modern web standards.
+**PrimeClean Web React** is the first website I have ever published on GitHub. I built this project when I was **16 years old** as a personal learning project to improve my front-end development skills.
 
-🔗 **[Click Here for the Live Demo](https://delicate-heliotrope-eb7f40.netlify.app/)**
+Rather than simply generating code with AI tools, I focused on understanding how every part of the project works. My goal was to learn the fundamentals of modern web development, including component-based architecture, responsive design, semantic HTML, and clean project organization.
 
-### 🛠️ Technologies Used
-I prioritized performance, type safety, and clean bundling for the codebase:
-- **React.js** (Modern component architecture)
-- **TypeScript** (`.tsx` structure for static typing and error-free coding)
-- **Vite** (Fast and optimized development environment)
+🔗 **Live Demo:** https://delicate-heliotrope-eb7f40.netlify.app/
 
-### 📐 Code Quality & Design
-- **Semantic Coding:** To ensure search engines (SEO) and modern browsers interpret the layout correctly, I paid maximum attention to writing clean, semantic HTML (`<header>`, `<section>`, `<main>`, `<footer_>`).
-- **100% Responsive:** In all device tests and screen sizes conducted so far, the layout scales perfectly with zero breakages. Furthermore, thanks to Google PageSpeed Insights optimization, the site achieves a **90+ performance score**.
+---
 
-### 💻 Installation and Setup
-To run this project locally and explore the source code, follow these steps:
+## 🛠️ Tech Stack
 
-1. **Install Dependencies:**
+- **React.js** – Component-based UI development
+- **TypeScript** – Static typing for safer and more maintainable code
+- **Vite** – Fast development server and optimized production builds
+
+---
+
+## ✨ Features
+
+- Modern and minimal landing page design
+- Fully responsive layout for desktop, tablet, and mobile devices
+- Semantic HTML structure
+- Clean and organized component architecture
+- Fast loading performance
+- SEO-friendly markup
+- Built with reusable React components
+
+---
+
+## 📐 Development Approach
+
+During development, I focused on writing clean, readable, and maintainable code.
+
+- Semantic HTML elements (`header`, `main`, `section`, `footer`)
+- Reusable React components
+- Responsive design using modern CSS techniques
+- Optimized assets and performance
+- Well-structured project organization
+
+The project achieves a **90+ Google PageSpeed Insights Performance Score** after optimization.
+
+---
+
+## 📸 Screenshots
+
+### Homepage
+
+![PrimeClean Screenshot](./photo1.png)
+
+### Google PageSpeed Insights
+
+![PageSpeed Score](./photo2.png)
+
+---
+
+## 💻 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/PrimeClean-Web-React.git
+```
+
+Move into the project directory:
+
+```bash
+cd PrimeClean-Web-React
+```
+
+Install the dependencies:
+
 ```bash
 npm install
-
 ```
 
+Start the development server:
 
-2. **Run the Project in Development Mode:**
 ```bash
 npm run dev
-
 ```
-
 
 ---
-![Ekran Görüntüsü 1](./photo1.png)
-![Ekran Görüntüsü 2](./photo2.png)
+
+## 📂 Project Structure
+
+```
+src/
+├── assets/
+├── components/
+├── pages/
+├── styles/
+├── App.tsx
+└── main.tsx
+```
+
 ---
 
-## 🚀 Projenin Hikayesi & Benim Hakkımda (Türkçe)
+## 🎯 Purpose
 
-Bu proje, benim **GitHub üzerinde paylaştığım ilk web sitemdir**. Projeyi **16 yaşımda**, günümüzde popüler olan "vibecoderlık" (kodun mantığını anlamadan yapay zekaya kod yazdırma) akımına kapılmadan, tamamen **kendi başıma, araştırarak ve her bir satırını öğrenerek** yazdım. Amacım sadece çalışan bir site yapmak değil; arkasındaki mantığı, bileşen (component) yapısını ve modern web standartlarını tam anlamıyla kavramaktı.
+This project was created to practice and demonstrate:
 
-🔗 **[Web Sitesini Canlı Görmek İçin Tıklayın](https://delicate-heliotrope-eb7f40.netlify.app/)**
+- Modern React development
+- TypeScript fundamentals
+- Responsive web design
+- Component-based architecture
+- Clean code principles
+- Front-end project organization
 
-### 🛠️ Kullanılan Teknolojiler
+---
 
-Projenin teknik kemiğini oluştururken performansı ve güvenliği ön planda tuttum:
+## 📄 License
 
-* **React.js** (Modern bileşen mimarisi)
-* **TypeScript** (`.tsx` yapısı ile tip güvenliği ve hatasız kodlama)
-* **Vite** (Hızlı ve optimize geliştirme ortamı)
-
-### 📐 Kod Kalitesi & Tasarım
-
-* **Semantik Kodlama:** HTML yapılarını oluştururken arama motorlarının (SEO) ve tarayıcıların siteyi en iyi şekilde anlamlandırması için kodları elimden geldiğince semantik (`<header>`, `<section>`, `<main>`, `<footer_>`) bir biçimde yazmaya özen gösterdim.
-* **%100 Responsive (Mobil Uyumlu):** Şu ana kadar farklı ekran boyutlarında ve cihazlarda yaptığım testlerde tasarımda hiçbir kırılma veya sorun yaşanmamıştır. Ayrıca yapılan Google PageSpeed Insights optimizasyonları ile **90+ performans puanına** ulaşılmıştır.
-
-### 💻 Kurulum ve Çalıştırma
-
-Projeyi yerel bilgisayarınızda çalıştırmak ve kodları incelemek için aşağıdaki adımları takip edebilirsiniz:
-
-1. **Bağımlılıkları Yükleyin:**
-```bash
-npm install
-
-```
-
-
-2. **Projeyi Canlı Modda Başlatın:**
-```bash
-npm run dev
-
-```
+This project is available for educational and portfolio purposes.
