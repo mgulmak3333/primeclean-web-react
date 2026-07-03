@@ -23,19 +23,16 @@ I prioritized performance, type safety, and clean bundling for the codebase:
 - **100% Responsive:** In all device tests and screen sizes conducted so far, the layout scales perfectly with zero breakages. Furthermore, thanks to Google PageSpeed Insights optimization, the site achieves a **90+ performance score**.
 
 ### 💻 Installation and Setup
-To run this project locally and explore the source code, follow these steps:
+To run this project locally and explore the source code, follow these steps:        
 
 1. **Install Dependencies:**
    ```bash
    npm install
 
-```
+1. **Run the Project in Development Mode:**
+   ```bash
+   npm run dev
 
-2. **Run the Project in Development Mode:**
-```bash
-npm run dev
-
-```
 
 
 
