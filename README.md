@@ -65,7 +65,7 @@ The project achieves a **90+ Google PageSpeed Insights Performance Score** after
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/PrimeClean-Web-React.git
+git clone https://github.com/mgulmak3333/primeclean-web-react
 ```
 
 Move into the project directory:
