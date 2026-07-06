@@ -36,7 +36,7 @@ function contact(){
 
 
                         <div className="location-if">
-                            <iframe className="trs" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42993.11248963749!2d34.602540119782404!3d36.78321219575251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1527f4a4c0be6e9f%3A0x4dbef2b1f81e7d77!2sMersin%2C%20Akdeniz%2FMersin!5e0!3m2!1str!2str!4v1781364148742!5m2!1str!2str" width="0" height="0" style={{border: "2px solid rgb(0, 68, 255)", borderRadius: "10px", boxShadow: "0px 0px 10px 0px rgba(0, 31, 66, 0.527)"}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />                        
+                            <iframe className="trs" title='maps' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42993.11248963749!2d34.602540119782404!3d36.78321219575251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1527f4a4c0be6e9f%3A0x4dbef2b1f81e7d77!2sMersin%2C%20Akdeniz%2FMersin!5e0!3m2!1str!2str!4v1781364148742!5m2!1str!2str" width="0" height="0" style={{border: "2px solid rgb(0, 68, 255)", borderRadius: "10px", boxShadow: "0px 0px 10px 0px rgba(0, 31, 66, 0.527)"}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />                        
                         </div>
                     </div>
                 </div>

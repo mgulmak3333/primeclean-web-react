@@ -7,8 +7,8 @@ function main(){
                 <div className="parse">
 
                     <div className="text-parse">
-                        <h6>Professional</h6> 
-                        <h1>PrimeClean</h1>
+                        <h1>Professional</h1> 
+                        <h2>PrimeClean</h2>
                         <p>Relax after a long day while we bring exceptional cleanliness and hygiene to your home. Professional cleaning with quality you can trust.</p>
                         <button>Contact Us...</button>
                     </div>
