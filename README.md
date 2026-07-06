@@ -10,7 +10,7 @@ A modern, responsive, and user-friendly landing page for a professional cleaning
 
 Rather than simply generating code with AI tools, I focused on understanding how every part of the project works. My goal was to learn the fundamentals of modern web development, including component-based architecture, responsive design, semantic HTML, and clean project organization.
 
-🔗 **Live Demo:** https://quiet-begonia-52c79f.netlify.app/
+🔗 **Live Demo:** https://primeclean-web-react.vercel.app/
 
 ---
 
