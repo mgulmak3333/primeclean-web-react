@@ -25,8 +25,25 @@ function App() {
     }
     requestAnimationFrame(raf);
 
+<<<<<<< Updated upstream
+=======
 
 
+
+
+    const handleLoad = () => {
+      setIsLoading(false);
+    };
+>>>>>>> Stashed changes
+
+    if (document.readyState === 'complete') {
+      setIsLoading(false);
+    } else {
+      window.addEventListener('load', handleLoad);
+      
+      const timeoutId = setTimeout(() => setIsLoading(false), 3000);
+
+<<<<<<< Updated upstream
 
 
     const handleLoad = () => {
@@ -40,6 +57,8 @@ function App() {
       
       const timeoutId = setTimeout(() => setIsLoading(false), 3000);
 
+=======
+>>>>>>> Stashed changes
       return () => {
         lenis.destroy();
         window.removeEventListener('load', handleLoad);
@@ -56,7 +75,11 @@ function App() {
     );
   }
 
+<<<<<<< Updated upstream
   
+=======
+  // Senin asıl bileşenlerinin ekranda basılması için bu return gerekiyordu:
+>>>>>>> Stashed changes
   return (
     <>
       <Header />
