@@ -6,12 +6,12 @@
 
     /* IMAGES */
     --main-background: url(./assets/img/bg.webp);
-    --about-image: url(./assets/img/ct.png);
-    --blog-background: url(./assets/img/banner-1.jpg);
-    --blog-card-1: url(./assets/img/blog-1.jpg);
-    --blog-card-2: url(./assets/img/blog-2.jpg);
-    --services-background: url(./assets/img/c2.jpg);
-    --contact-background: url(./assets/img/banner-2.jpg);
+    --about-image: url(./assets/img/ct.webp);
+    --blog-background: url(./assets/img/banner-1.webp);
+    --blog-card-1: url(./assets/img/blog-1.webp);
+    --blog-card-2: url(./assets/img/blog-2.webp);
+    --services-background: url(./assets/img/c2.webp);
+    --contact-background: url(./assets/img/banner-2.webp);
 
 
     /* COLOR */

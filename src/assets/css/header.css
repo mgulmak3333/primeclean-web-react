@@ -194,7 +194,11 @@ html, body {
 
 
 
-
+.mobil-ico button{
+    border: none;
+    outline: none;
+    background: none;
+}
 
 .mobil-ico svg{
     color: rgb(0, 0, 0);

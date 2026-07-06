@@ -7,11 +7,11 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Lenis from 'lenis';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 function App() {
 
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+  
 
   useEffect(() => {
 
@@ -29,32 +29,11 @@ function App() {
 
 
 
-    const handleLoad = () => {
-      setIsLoading(false);
-    };
-
-    if (document.readyState === 'complete') {
-      setIsLoading(false);
-    } else {
-      window.addEventListener('load', handleLoad);
-      
-      const timeoutId = setTimeout(() => setIsLoading(false), 3000);
-
-      return () => {
-        lenis.destroy();
-        window.removeEventListener('load', handleLoad);
-        clearTimeout(timeoutId);
-      };
+    return () =>{
+      lenis.destroy();
     }
   }, []); 
 
-  if (isLoading) {
-    return (
-      <div className="loading-container">
-        <div className="spinner"></div>
-      </div>
-    );
-  }
 
   
   return (
@@ -62,8 +41,8 @@ function App() {
       <Header />
       <Main />
       <About />
-      <Services />
       <Blog />
+      <Services />
       <Contact />
       <Footer />
     </>

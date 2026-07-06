@@ -38,13 +38,13 @@ function footer(){
                         <div className="services-links">
                             <h2>Links</h2>
                             <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="#home-p">Home</a></li>
+                                <li><a href="#services-p">Services</a></li>
+                                <li><a href="#blog-p">Blog</a></li>
+                                <li><a href="#about-p">About Us</a></li>
+                                <li><a href="#contact-p">Contact</a></li>
                             </ul>
-                        </div>
+                        </div> 
 
                         <div className="services-links">
                             <h2>Services</h2>
