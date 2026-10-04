@@ -113,8 +113,8 @@ function Header(){
 
         return () =>{
             window.removeEventListener('scroll', handleScroll);
-            if(globalNavObserver) globalNavObserver.disconnect;
-            if(globalCardObserver) globalCardObserver.disconnect;
+            if(globalNavObserver) globalNavObserver.disconnect();
+            if(globalCardObserver) globalCardObserver.disconnect();
         };
 
     }, []);
