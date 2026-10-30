@@ -14,10 +14,8 @@
 
 .parse {
     display: flex;
-    min-width: 50%;
-    min-height:45vh;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: clamp(30px, 3vw, 45px);
+    padding-bottom: clamp(30px, 3vw, 45px);
     padding-left: 5%;
     padding-right: 10px;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.3) 40%, transparent 100%);
@@ -27,34 +25,29 @@
     animation: slideLeft 1s ease forwards;
 }
 
-
-
-
-
 @keyframes slideLeft {
-    from{
+    from {
         opacity: 0;
         transform: translateX(-100%);
     }
-    to{
+    to {
         opacity: 1;
         transform: translateX(0);
     }
 }
 
-.parse p{
-    max-width:500px;
+.parse p {
+    max-width: clamp(500px, 38vw, 700px);
     display: flex;
     padding-top: 3%;
-    line-height: 25px;
-    font-size: 14px;
+    line-height: clamp(25px, 2vw, 32px);
+    font-size: clamp(14px, 1.1vw, 18px);
     color: rgba(255, 255, 255, 0.9);
 }
 
-
-.parse h2{
+.parse h2 {
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: clamp(50px, 4vw, 70px);
     width: fit-content;
     max-width: 100%;
     overflow-wrap: break-word;
@@ -62,26 +55,25 @@
     position: relative;
 }
 
-.parse h2::before{
+.parse h2::before {
     width: 40%;
-    height: 4px;
+    height: clamp(4px, 0.35vw, 6px);
     position: absolute;
     border-radius: 10px;
     background: white;
     left: 0;
-    bottom: -5px;
     bottom: 0;
     content: '';
 }
 
-.parse h1{
+.parse h1 {
     background: rgb(29, 94, 179);
-    padding: 5px 8px;
+    padding: clamp(5px, 0.4vw, 8px) clamp(8px, 0.7vw, 12px);
     width: fit-content;
     border: 2px solid rgb(37, 128, 248);
     color: #c7eeff;
     border-radius: 60px;
-    font-size: 10px;
+    font-size: clamp(10px, 0.8vw, 13px);
     font-weight: 700;
 }
 
@@ -89,19 +81,24 @@
     margin: 0;
 }
 
-
 .parse button {
     margin-top: 30px;
     width: fit-content;
     color: white;
-    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
     background: var(--button-blue);
-    padding: 18px 20px;
+    padding: clamp(15px, 1.2vw, 18px) clamp(15px, 1.5vw, 22px);
     border: none;
+    box-shadow: 2px 5px 10px rgba(0, 40, 116, 0.5);
     outline: none;
     transition: 0.3s;
+    font-size: clamp(14px, 1vw, 16px);
 }
 
+
 .parse button:hover{
-    background: var(--button-blue-hover);
+    gap: 12px;
+    background: rgb(0, 40, 100);
 }

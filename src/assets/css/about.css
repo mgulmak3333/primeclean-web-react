@@ -1,23 +1,23 @@
 .section-about{
-    min-height: 615px;
+    min-height: clamp(550px, 8vw + 440px, 700px);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 60px;
-    padding-bottom: 50px;
-    padding-top: 10px;
-    padding-right: 60px;
+    padding-left: clamp(60px, 5vw, 120px);
+    padding-bottom: clamp(30px, 2.5vw, 50px);
+    padding-top: clamp(20px, 2vw, 40px);
+    padding-right: clamp(60px, 5vw, 120px);
     background: var(--white);
     width: 100%;
 }
-
-
 
 .about{
     display: flex;
     width: fit-content;
     justify-content: space-between;
+    align-items: center;
 }
+
 
 .about-pic{
     transform: translateX(-10%);
@@ -58,13 +58,12 @@
 .about-props p{
     color: rgb(37, 37, 37);
     padding-bottom: 5%;
-    padding-top:2.8%;
+    padding-top: 2.8%;
     font-size: 1rem;
     font-weight: 500;
     font-family: var(--montserrat);
     line-height: 28px;
 }
-
 
 .about-props button{
     background: var(--button-blue);
@@ -78,8 +77,36 @@
     border-radius: 10px;
 }
 
-.about-props button:hover{
-    background: var(--button-blue-hover);
+
+
+@media screen and (min-width: 1367px) {
+    .about-pic {
+        height: clamp(320px, 2.2vw + 290px, 440px); 
+        width: 135%; 
+        transform: translateX(-7%);
+    }
+
+    .about-props {
+        transform: translateX(2%);
+    }
+
+    .about-props h1 {
+        font-size: clamp(45px, 1.2vw + 28px, 56px);
+    }
+
+    .about-props h1::after {
+        height: clamp(4px, 0.15vw + 2px, 7px);
+    }
+
+    .about-props p {
+        font-size: clamp(1rem, 0.3vw + 0.6rem, 1.25rem);
+        line-height: clamp(28px, 1vw + 14px, 38px);
+    }
+
+    .about-props button {
+        font-size: clamp(1rem, 0.22vw + 0.7rem, 1.18rem);
+        padding: clamp(16px, 0.4vw + 10px, 22px) clamp(30px, 0.7vw + 20px, 42px);
+    }
 }
 
 @media (max-width: 991px) {

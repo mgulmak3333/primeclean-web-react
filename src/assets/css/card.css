@@ -2,21 +2,22 @@
     gap: 20px;
     width: 100%;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     display: flex;
     padding-top: 50px;
-    
 }
 
 .blog{
     width: 50%;
-    min-height: 310px;
-    padding-bottom: 30px;
+    min-height: clamp(310px, 4vw + 250px, 380px);
     opacity: 0;
     border-radius: 10px;
-    display: flex
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    box-sizing: border-radius;
+    overflow: hidden;
 }
-
 
 .active-blogger{
     animation: sideBottom 0.8s ease-in-out forwards;
@@ -35,7 +36,6 @@
 
 #blog-1{
     background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--blog-card-1);
-    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -51,26 +51,31 @@
 .blog-sect{
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 110px;
-    gap: 20px;
+    padding-left: clamp(20px, 2.5vw, 50px);
+    padding-right: clamp(20px, 2.5vw, 50px);
+    padding-top: clamp(40px, 3vw, 70px);
+    padding-bottom: clamp(25px, 2vw, 40px);
+    gap: clamp(12px, 1vw, 20px);
+    margin-top: auto; 
 }
 
 .blog-sect p{
-    font-size: 13px;
+    font-size: clamp(13px, 0.6vw + 5px, 16px);
     color: white;
-    max-width: 450px;
+    max-width: clamp(450px, 15vw + 250px, 600px);
+    margin: 0;
 }
 
 .blog-sect h3{
     color: white;
-    font-size: 25px;
+    font-size: clamp(25px, 0.8vw + 14px, 33px);
     font-family: var(--montserrat);
     cursor: pointer;
     font-weight: 580;
-    max-width: 450px;
+    max-width: clamp(450px, 15vw + 250px, 600px);
+    margin: 0;
 }
+
 
 .blog:hover h3{
     text-decoration: underline;

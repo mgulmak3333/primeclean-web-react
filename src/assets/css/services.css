@@ -1,0 +1,77 @@
+.section-services{
+    width: 100%;
+    min-height: auto;
+    padding-bottom: 50px;
+    display: flex;
+    background: var(--white);
+}
+
+.bg{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), var(--services-background);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.bg-section{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: clamp(50px, 4vw, 85px);
+    padding-bottom: clamp(80px, 5vw, 130px);
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.bg-section h2{
+    font-family: var(--montserrat);
+    font-size: clamp(40px, 1.2vw + 25px, 52px);
+    font-weight: 580;
+    display: flex;
+    position: relative;
+}
+
+.bg-section h2::after{
+    content: '';
+    bottom: -8px;
+    transform: translateX(-50%);
+    left: 50%;
+    border-radius: 10px;
+    width: 70%;
+    height: clamp(4px, 0.15vw + 2px, 7px);
+    background: var(--blue);
+    position: absolute;
+}
+
+.bg-section p{
+    color: rgba(255, 255, 255, 0.9);
+    max-width: clamp(700px, 25vw + 380px, 950px);
+    font-family: var(--montserrat);
+    padding-left: clamp(30px, 3vw, 60px);
+    padding-right: clamp(30px, 3vw, 60px);
+    line-height: clamp(25px, 0.8vw + 14px, 36px);
+    text-align: center;
+    font-size: clamp(1rem, 0.22vw + 0.7rem, 1.18rem);
+}
+
+.bg-section button{
+    background: var(--button-blue);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: clamp(1rem, 0.18vw + 0.78rem, 1.1rem);
+    font-family: var(--montserrat);
+    padding: clamp(16px, 0.35vw + 11px, 20px) clamp(30px, 0.55vw + 22px, 37px);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.bg-section button:hover{
+    background: var(--button-blue-hover);
+}

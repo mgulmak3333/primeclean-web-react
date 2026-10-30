@@ -1,8 +1,8 @@
 .section-blog{
     width: 100%;
     min-height: auto;
-    display:block;
-    padding-bottom: 163.92px;
+    display: block;
+    padding-bottom: clamp(60px, 3vw + 20px, 100px);
     background: var(--white);
 }
 
@@ -18,9 +18,9 @@
     
 }
 
-.banner-1 h2{
+.banner-1 h2 {
     color: white;
-    font-size: 40px;
+    font-size: clamp(40px, 1.1vw + 25px, 52px);
     display: flex;
     font-family: var(--montserrat);
     position: relative;
