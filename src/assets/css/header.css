@@ -60,17 +60,17 @@ html, body {
 .logo h1 {
     color: black;
     font-family: var(--nunito);
-    font-size: clamp(28.8px, 2.05vw, 38px);
+    font-size: clamp(28.8px, 1.1vw + 13.8px, 35px);
     font-weight: 650;
     line-height: 1;
 }
 
 .logo svg {
     color: var(--blue);
-    width: clamp(25px, 1.8vw, 33px);
-    height: clamp(25px, 1.8vw, 33px);
-    min-width: clamp(25px, 1.8vw, 33px);
-    min-height: clamp(25px, 1.8vw, 33px);
+    width: clamp(25px, 0.9vw + 12.7px, 31px);
+    height: clamp(25px, 0.9vw + 12.7px, 31px);
+    min-width: clamp(25px, 0.9vw + 12.7px, 31px);
+    min-height: clamp(25px, 0.9vw + 12.7px, 31px);
 }
 
 .navbar {
@@ -91,7 +91,7 @@ html, body {
     text-decoration: none;
     font-family: var(--montserrat);
     color: rgb(30, 30, 30);
-    font-size: clamp(14.4px, 1.05vw, 18px);
+    font-size: clamp(14.4px, 0.5vw + 7.6px, 17px);
     font-weight: 550;
     width: fit-content;
     transition: 0.3s;
