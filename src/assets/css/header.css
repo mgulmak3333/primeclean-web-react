@@ -18,7 +18,7 @@ html, body {
     position: fixed;
     background: white;
     width: clamp(90%, 87vw, 1680px);
-    min-height: clamp(65px, 4.7vw, 91px);
+    min-height: clamp(65px, 2vw + 38px, 78px);
     left: 50%;
     transform: translateX(-50%);
     z-index: 999;
